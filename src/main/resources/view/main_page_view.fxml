@@ -38,7 +38,7 @@
       </Label>
       <Line endX="128.0" layoutX="122.0" layoutY="161.0" startX="-114.79998779296875" startY="1.52587890625E-5" stroke="#273c75" />
       <Line endX="128.0" layoutX="122.0" layoutY="224.0" startX="-114.79998779296875" startY="1.52587890625E-5" stroke="#273c75" />
-      <JFXListView layoutX="264.0" layoutY="85.0" prefHeight="361.0" prefWidth="530.0" style="-fx-background-color: #ffffff;" />
+      <JFXListView fx:id="jFXListView" layoutX="264.0" layoutY="85.0" prefHeight="361.0" prefWidth="530.0" style="-fx-background-color: #ffffff;" />
       <Button alignment="TOP_LEFT" layoutX="4.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnFuturePlans" prefHeight="42.0" prefWidth="244.0" style="-fx-background-color: #ffffff;" text="Future Plans  🎯" textFill="#273c75">
          <font>
             <Font name="Comic Sans MS Bold" size="20.0" />
@@ -50,7 +50,7 @@
             <Font name="Comic Sans MS Bold" size="14.0" />
          </font>
       </Button>
-      <JFXTextField layoutX="306.0" layoutY="450.0" onAction="#txtTask" prefHeight="26.0" prefWidth="382.0" promptText="Add Your Task " style="-fx-background-radius: 15px; -fx-background-color: #ffffff;" unFocusColor="BLACK">
+      <JFXTextField fx:id="txtTask" layoutX="306.0" layoutY="450.0" onAction="#txtTask" prefHeight="26.0" prefWidth="382.0" promptText="Add Your Task " style="-fx-background-radius: 15px; -fx-background-color: #ffffff;" unFocusColor="BLACK">
          <font>
             <Font name="Comic Sans MS Italic" size="12.0" />
          </font>
