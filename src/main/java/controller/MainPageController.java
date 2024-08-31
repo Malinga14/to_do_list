@@ -31,7 +31,7 @@ public class MainPageController {
     }
 
     public void btnAddTask1(ActionEvent actionEvent) {
-
+        System.out.println("Hello Java");
     }
 
     public void txtTask(ActionEvent actionEvent) {
