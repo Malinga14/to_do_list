@@ -3,6 +3,8 @@ package model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+
+import javax.security.auth.callback.Callback;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -22,4 +24,6 @@ public class Record {
         this.startTime=startTime;
     }
 
+    public void setCellFactory(Callback callback) {
+    }
 }

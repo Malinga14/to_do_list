@@ -13,6 +13,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import model.Record;
 
+import javax.security.auth.callback.Callback;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -49,36 +50,47 @@ public class MainPageController {
     }
 
     public void txtTask(ActionEvent actionEvent) {
+        addTask();
     }
 
     public void btnFuturePlans(ActionEvent actionEvent) {
     }
 
     private void addTask(){
-        Record record = new Record(
-                txtTask.getText(),
-                LocalDate.now(),
-                LocalTime.now()
-        );
+        if(txtTask.getText().isEmpty()){
+            new Alert(Alert.AlertType.INFORMATION, "Invalid Input!\n    Try Again....").show();
+        }else {
+            Record record = new Record(
+                    txtTask.getText(),
+                    LocalDate.now(),
+                    LocalTime.now()
+            );
 
-        try {
-            String SQL = "INSERT INTO task_list VALUES(?,?,?)";
-            Connection connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement(SQL);
-            psTm.setObject(1, record.getTask());
-            psTm.setObject(2, record.getAssignedDate());
-            psTm.setObject(3, record.getStartTime());
-
-            boolean b = psTm.executeUpdate() > 0;
+            record.setCellFactory(new Callback() {
 
 
-            if (b) {
-                new Alert(Alert.AlertType.INFORMATION, "Your Task Added!").show();
-                loadTable();
+            });
+
+            try {
+                String SQL = "INSERT INTO task_list VALUES(?,?,?)";
+                Connection connection = DBConnection.getInstance().getConnection();
+                PreparedStatement psTm = connection.prepareStatement(SQL);
+                psTm.setObject(1, record.getTask());
+                psTm.setObject(2, record.getAssignedDate());
+                psTm.setObject(3, record.getStartTime());
+
+                boolean b = psTm.executeUpdate() > 0;
+
+
+                if (b) {
+                    txtTask.setText(null);
+                    new Alert(Alert.AlertType.INFORMATION, "Your Task Added!").show();
+                    loadTable();
+                }
+
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
             }
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
         }
     }
 
