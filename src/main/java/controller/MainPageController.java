@@ -113,7 +113,6 @@ public class MainPageController {
 
                 stringObservableList.add(record.toString());
                 jFXListView.setItems(stringObservableList);
-                System.out.println(stringObservableList);
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
