@@ -32,9 +32,10 @@ public class Record {
     }
 
     public String taskdone(){
-        return this.task;
+        return (this.getTask()+" "+this.getAssignedDate()+" "+this.getStartTime()+" "+this.getCompleteDate()+" "+this.getCompleteTime());
     }
     public String toString(){
         return (this.getAssignedDate()+"\t\t"+this.getTask());
     }
+
 }

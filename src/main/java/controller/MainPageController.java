@@ -148,13 +148,13 @@ public class MainPageController {
                         checkBox.setOnAction(event -> {
                             if (checkBox.isSelected()) {
                                 try {
-                                    String[] task1=text.getText().split("\t\t");
+                                    String[] task=text.getText().split("\t\t");
                                     String sql ="UPDATE task_list SET state='Completed', complete_date=?, complete_time=? WHERE task=?";
                                     Connection connection = db.DBConnection.getInstance().getConnection();
                                     PreparedStatement psTm = connection.prepareStatement(sql);
                                     psTm.setObject(1,LocalDate.now());
                                     psTm.setObject(2,LocalTime.now());
-                                    psTm.setObject(3,task1[1]);
+                                    psTm.setObject(3,task[1]);
                                     if(psTm.executeUpdate()>0){
                                         checkBox.setSelected(false);
                                         new Alert(Alert.AlertType.INFORMATION,"Task Done!").show();

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="Third Commit">
+    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="Fourth Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/CompletedRecords.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/main_page_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/main_page_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725170525702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fourth Commit">
+      <option name="closed" value="true" />
+      <created>1725335107473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725335107473</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +173,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
+    <MESSAGE value="Fourth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit" />
   </component>
 </project>
