@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CompletedRecords.java" afterDir="false" />
+    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="Third Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/CompletedRecords.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/main_page_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/main_page_view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,27 +53,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/My Projects/to-do-list/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/My Projects/to-do-list/src/main/java",
+    "last_opened_file_path": "D:/Eductaion/ICET/JavaFX/javaFX-2024-08-12",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My Projects\to-do-list\src\main\resources\view" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="controller" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -125,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725119054906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third Commit">
+      <option name="closed" value="true" />
+      <created>1725170457595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725170457595</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third Commit">
+      <option name="closed" value="true" />
+      <created>1725170525702</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725170525702</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +166,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
 </project>

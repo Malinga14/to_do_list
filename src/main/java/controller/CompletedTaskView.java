@@ -38,7 +38,7 @@ public class CompletedTaskView implements Initializable {
     @FXML
     private TableColumn<?, ?> colCompletedDate;
 
-
+    @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }

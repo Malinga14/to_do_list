@@ -18,7 +18,7 @@
       </Button>
       <Pane layoutX="264.0" layoutY="12.0" prefHeight="68.0" prefWidth="530.0" style="-fx-background-color: #4bcffa; -fx-background-radius: 12px;">
          <children>
-            <Label layoutX="89.0" layoutY="-2.0" text="My To Do List" textFill="WHITE">
+            <Label layoutX="89.0" layoutY="-5.0" text="My To Do List" textFill="WHITE">
                <font>
                   <Font name="Cambria" size="60.0" />
                </font>
