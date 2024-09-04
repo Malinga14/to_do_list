@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="Fourth Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CompletedTaskView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/completed_task_view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="27133335-8b0d-4093-a87e-ceb59e54bf81" name="Changes" comment="6th Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725335107473</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5th Commit">
+      <option name="closed" value="true" />
+      <created>1725342737758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725342737758</updated>
+    </task>
+    <task id="LOCAL-00008" summary="6th Commit">
+      <option name="closed" value="true" />
+      <created>1725342783403</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725342783404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +184,8 @@
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
     <MESSAGE value="Fourth Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit" />
+    <MESSAGE value="5th Commit" />
+    <MESSAGE value="6th Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th Commit" />
   </component>
 </project>
